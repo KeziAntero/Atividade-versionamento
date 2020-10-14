@@ -12,11 +12,11 @@
             height:400px;
             padding:10px;
             margin: 0 auto;
-            margin-top: 8%;
+            margin-top: 1%;
           }
           
         
-          input[type=text], input[type=cpf], input[type=email]{
+          input[type=text], input[type=cpf], input[type=email], input[type=mat]{
             width: 100%;
             padding: 12px 20px;
             margin: 8px 0;
@@ -33,7 +33,7 @@
           
          
           img.avatar {
-            width: 80%;
+            width: 40%;
             
           }
           
@@ -47,25 +47,30 @@
     <form action="#" method="POST">
         
         <div class="imgcontainer">
-            <img src="users.png" alt="Avatar" class="avatar">
+            <img src="ifrn.png" alt="Avatar" class="avatar">
         </div>
 
         <div class="container">
             <label for= "name"><b>Nome</b></label>
-            <input type="text" placeholder="Nome" name="nome" required>
+            <input type="text" placeholder="Digite seu nome" name="nome" required>
             
             <label for="CPF"><b>CPF</b></label>
-            <input type="cpf" placeholder="digite seu CPF" name="CPF" required>
+            <input type="cpf" placeholder="Digite seu CPF" name="CPF" required>
 
             <label for="email"><b>Email</b></label>
             <input type="email" placeholder="digite seu email" name="CPF" required>
 
             <label for="sexo"><b>Sexo</b></label>
-              <input id="sexo" name="sexo" type="radio">
-              <label for="sexo">Feminino</label>
+            <input id="sexo" name="sexo" type="radio">
+            <label for="sexo">Feminino</label>
              
-              <input id="sexo" name="sexo" type="radio">
-              <label for="sexo">Masculino</label><br/><br/>
+            <input id="sexo" name="sexo" type="radio">
+            <label for="sexo">Masculino</label><br/><br/>
+
+            <label for="mat"><b>Matrícula</b></label>
+            <input type="mat" placeholder="Digite sua matrícula" name="mat" required>
+        
+
         </div>
     </form>
 </body>
